@@ -1,7 +1,0 @@
-C:\Users\1\source\repos\lab5-reg\lab5-reg\bin\Debug\lab5-reg.exe.config
-C:\Users\1\source\repos\lab5-reg\lab5-reg\bin\Debug\lab5-reg.exe
-C:\Users\1\source\repos\lab5-reg\lab5-reg\bin\Debug\lab5-reg.pdb
-C:\Users\1\source\repos\lab5-reg\lab5-reg\obj\Debug\lab5-reg.csprojAssemblyReference.cache
-C:\Users\1\source\repos\lab5-reg\lab5-reg\obj\Debug\lab5-reg.csproj.CoreCompileInputs.cache
-C:\Users\1\source\repos\lab5-reg\lab5-reg\obj\Debug\lab5-reg.exe
-C:\Users\1\source\repos\lab5-reg\lab5-reg\obj\Debug\lab5-reg.pdb
