@@ -24,11 +24,11 @@ namespace WpfApp1
     /// </summary>
     public partial class MainWindow : Window
     {
-        private SqlConnection sqlConnection = null;
-        public MainWindow()
-        {
-            InitializeComponent();
-        }
+        //private SqlConnection sqlConnection = null;
+        //public MainWindow()
+        //{
+        //    InitializeComponent();
+        //}
 
         private void CheckBox_Checked(object sender, RoutedEventArgs e)
         {
@@ -52,12 +52,12 @@ namespace WpfApp1
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            sqlConnection = new SqlConnection(ConfigurationManager.ConnectionStrings["DB1_test"].ConnectionString);
-            sqlConnection.Open();
-            if (sqlConnection.State == ConnectionState.Open)
-            {
-                MessageBox.Show("yes");
-            }
+            //sqlConnection = new SqlConnection(ConfigurationManager.ConnectionStrings["DB1_test"].ConnectionString);
+            //sqlConnection.Open();
+            //if (sqlConnection.State == ConnectionState.Open)
+            //{
+            //    MessageBox.Show("yes");
+            //}
         }
     }
 }

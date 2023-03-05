@@ -5,6 +5,11 @@
       "taskName": "задача-Model",
       "appliesTo": "WpfApp1/WpfApp1/Model/",
       "type": "launch"
+    },
+    {
+      "taskName": "задача-Model",
+      "appliesTo": "WpfApp1/WpfApp1/Model/",
+      "type": "launch"
     }
   ]
 }
