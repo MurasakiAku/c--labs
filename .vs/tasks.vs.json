@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "задача-Model",
+      "appliesTo": "WpfApp1/WpfApp1/Model/",
+      "type": "launch"
+    }
+  ]
+}
