@@ -10,5 +10,7 @@ namespace WpfAppNew.Model
     {
         public int IdCash { get; set; }
         public int CashNumber { get; set; }
+
+       // public virtual ICollection<>
     }
 }

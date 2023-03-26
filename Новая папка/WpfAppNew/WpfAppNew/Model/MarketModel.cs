@@ -7,6 +7,10 @@ namespace WpfAppNew.Model
     
     public class MarketModel : DbContext
     {
+        static MarketModel()
+        {
+            
+        }
         // Контекст настроен для использования строки подключения "MarketModel" из файла конфигурации  
         // приложения (App.config или Web.config). По умолчанию эта строка подключения указывает на базу данных 
         // "WpfAppNew.MarketModel" в экземпляре LocalDb. 

@@ -12,5 +12,11 @@ namespace WpfAppNew.Model
         public double price { get; set; }
         public double quantity { get; set; }
         public int discount { get; set; }
+
+        public virtual ICollection<ClassProduct> ClassProduct { get; set; }
+        public ClassSalesContnt()
+        {
+            ClassProduct = new List<ClassProduct>();
+        }
     }
 }

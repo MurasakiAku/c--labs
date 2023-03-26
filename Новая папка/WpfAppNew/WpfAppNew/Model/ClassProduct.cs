@@ -12,7 +12,7 @@ namespace WpfAppNew.Model
         public char product { get; set; }
         public double price { get; set; }
         public double quantity { get; set; }
-        public virtual ICollection<>
+       // public virtual ICollection<>
 
     }
 }

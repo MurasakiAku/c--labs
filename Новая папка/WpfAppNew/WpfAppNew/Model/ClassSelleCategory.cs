@@ -10,5 +10,11 @@ namespace WpfAppNew.Model
     {
         public int IdCategory { get; set; }
         public string SelleCategory { get; set; }
+
+        public virtual ICollection<ClassSeller> ClassSellers { get; set; }
+        public ClassSelleCategory()
+        {
+
+        }
     }
 }
