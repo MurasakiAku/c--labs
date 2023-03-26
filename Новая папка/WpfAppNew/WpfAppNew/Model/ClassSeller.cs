@@ -13,21 +13,15 @@ namespace WpfAppNew.Model
         public string _lastName { get; set; }
         public string _fatherland { get; set; }
 
-        public virtual ICollection<ClassSelleCategory> Categories { get; set; }
 
-
-        //public ClassSeller(string _firstName, string _lastName, string _fatherland)
-        //{
-        //    this._firstName = _firstName;
-        //    this._lastName = _lastName;
-        //    this._fatherland = _fatherland;
-        //}
+        // public virtual ICollection<ClassSelleCategory> Categories { get; set; }
         //public ClassSeller()
         //{
-        //    _firstName = "name";
-        //    _lastName = "lastname";
-        //    _fatherland = "fstherland";
+
         //}
+        public int IdCategory { get; set; }
+        public virtual ClassSelleCategory ClassSelleCategory { get; set; }
+ 
 
     }
 }
