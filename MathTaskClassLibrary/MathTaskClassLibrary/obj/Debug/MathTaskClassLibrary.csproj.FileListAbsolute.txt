@@ -1,7 +1,0 @@
-C:\Users\1\source\repos\MathTaskClassLibrary\MathTaskClassLibrary\bin\Debug\MathTaskClassLibrary.exe.config
-C:\Users\1\source\repos\MathTaskClassLibrary\MathTaskClassLibrary\bin\Debug\MathTaskClassLibrary.exe
-C:\Users\1\source\repos\MathTaskClassLibrary\MathTaskClassLibrary\bin\Debug\MathTaskClassLibrary.pdb
-C:\Users\1\source\repos\MathTaskClassLibrary\MathTaskClassLibrary\obj\Debug\MathTaskClassLibrary.csprojAssemblyReference.cache
-C:\Users\1\source\repos\MathTaskClassLibrary\MathTaskClassLibrary\obj\Debug\MathTaskClassLibrary.csproj.CoreCompileInputs.cache
-C:\Users\1\source\repos\MathTaskClassLibrary\MathTaskClassLibrary\obj\Debug\MathTaskClassLibrary.exe
-C:\Users\1\source\repos\MathTaskClassLibrary\MathTaskClassLibrary\obj\Debug\MathTaskClassLibrary.pdb
