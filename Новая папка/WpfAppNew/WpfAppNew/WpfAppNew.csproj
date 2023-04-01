@@ -14,6 +14,7 @@
     <WarningLevel>4</WarningLevel>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -26,7 +27,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -94,12 +94,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Model\MarketModel.cs" />
-    <Compile Include="Model\ClassCash.cs" />
-    <Compile Include="Model\ClassProduct.cs" />
-    <Compile Include="Model\ClassSale.cs" />
-    <Compile Include="Model\ClassSalesContnt.cs" />
-    <Compile Include="Model\ClassSelleCategory.cs" />
-    <Compile Include="Model\ClassSeller.cs" />
+    <Compile Include="Model\Cash.cs" />
+    <Compile Include="Model\Product.cs" />
+    <Compile Include="Model\Sale.cs" />
+    <Compile Include="Model\SalesContnt.cs" />
+    <Compile Include="Model\SelleCategory.cs" />
+    <Compile Include="Model\Seller.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
