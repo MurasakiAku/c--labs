@@ -20,9 +20,9 @@ namespace WpfAppNew.Model
         public virtual DbSet<Seller> Sellers { get; set; }
         public virtual DbSet<Product> Products { get; set; }
         public virtual DbSet<Sale> Sales { get; set; }
-        public virtual DbSet<SelleCategory> Categories { get; set; }
+        public virtual DbSet<SellerCategory> Categories { get; set; }
         public virtual DbSet<Cash> Cashes { get; set; }
-        public virtual DbSet<SalesContnt> Contnts { get; set; }
+        public virtual DbSet<SalesContent> Contents { get; set; }
 
         
 

@@ -17,8 +17,8 @@ namespace WpfAppNew.Model
         // public virtual ICollection<ClassSelleCategory> Categories { get; set; }
         
         public int SellerCategoryId { get; set; }
-        public virtual SelleCategory SelleCategory { get; set; }
- 
+        public virtual SellerCategory SellerCategory { get; set; }
+
 
     }
 }
