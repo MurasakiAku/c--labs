@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace WpfAppNew.Model
 {
-    public  class ClassSale
+    public class Cash
     {
-        public int IdSeller { get; set; }
-        public DateTime DateTime { get; set; }
+        public int Id { get; set; }
+        public int CashNumber { get; set; }
 
+       // public virtual ICollection<>
     }
 }
