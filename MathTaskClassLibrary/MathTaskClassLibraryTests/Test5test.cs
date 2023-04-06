@@ -12,8 +12,8 @@ namespace MathTaskClassLibraryTests
         {
             Test5 zadanie5 = new Test5();
             
-            int expected = 10;
-            int actual = zadanie5.test5("55");
+            int expected = 8;
+            int actual = zadanie5.test5(44,8);
           //  int expected = 10;
             Assert.AreEqual(expected, actual);
         }

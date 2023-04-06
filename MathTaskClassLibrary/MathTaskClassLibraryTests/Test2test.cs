@@ -17,7 +17,8 @@ namespace MathTaskClassLibraryTests
             double[] expected = { -1, 4 };
             Test2 zadanie2 = new Test2();
             double[] actual = zadanie2.test2(a,b,c);
-            Assert.AreEqual(expected, actual);
+            CollectionAssert.AreEqual(expected,actual);
+           //Assert.AreEqual(expected, actual);
 
         }
     }
