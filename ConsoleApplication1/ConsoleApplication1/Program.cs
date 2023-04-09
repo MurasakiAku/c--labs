@@ -16,19 +16,22 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-          //  Person p1 = new Person();
-          //  p1.Name = "Genry";
+            ResearchTeam research = new ResearchTeam();
+            Console.WriteLine(research.ToShortString());
 
-            
-          //  Person avtorname = new Person();
-          //  avtorname.Name = "Betti";
-          //  ResearchTeam research = new ResearchTeam();
-          //  //Console.WriteLine(value: research.AvarageRate);
-          ////  Console.WriteLine(research.ToShortString());
-          //  Console.WriteLine(research.ToFullString());
-          //  research.AddPapers(new Paper());
-          //  // Console.WriteLine(research.PaperLast.Title);
-          //  Console.ReadKey();
+            //  Person p1 = new Person();
+            //  p1.Name = "Genry";
+
+
+            //  Person avtorname = new Person();
+            //  avtorname.Name = "Betti";
+            //  ResearchTeam research = new ResearchTeam();
+            //  //Console.WriteLine(value: research.AvarageRate);
+            ////  Console.WriteLine(research.ToShortString());
+            //  Console.WriteLine(research.ToFullString());
+            //  research.AddPapers(new Paper());
+            //  // Console.WriteLine(research.PaperLast.Title);
+            Console.ReadKey();
         }
     }
 }

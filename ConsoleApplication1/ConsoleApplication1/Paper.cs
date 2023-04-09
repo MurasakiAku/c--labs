@@ -11,11 +11,11 @@ namespace ConsoleApplication1
         public Person Person { get; set; }
         public DateTime PublicationDate { get; set; }
 
-        public Paper(string Publication, Person person, DateTime PublicationDate)
+        public Paper(string publication, Person person, DateTime publicationDate)
         {
-            Publication = Publication;
-            Person = Person;
-            PublicationDate = PublicationDate;
+            Publication = publication;
+            Person = person;
+            PublicationDate = publicationDate;
         }
         public Paper()
         {
