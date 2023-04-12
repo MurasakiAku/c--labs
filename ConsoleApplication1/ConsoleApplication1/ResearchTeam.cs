@@ -10,23 +10,23 @@ namespace ConsoleApplication1
         private string _theme { get; set; }
         private string _organization { get; set; }
         private int _number { get; set; }
-        private TimeFrame _Last { get; set; }
+        private TimeFrame _last { get; set; }
         private Paper[] _listPublication { get; set; }
 
-        public ResearchTeam(string theme, string organization, int number, TimeFrame List, Paper[] listPublication)
+        public ResearchTeam(string Theme, string Organization, int Number, TimeFrame Last, Paper[] ListPublication)
         {
-            _theme = theme;
-            _organization = organization;
-            _number = number;
-            _Last = List;
-            _listPublication = listPublication;
+            _theme = Theme;
+            _organization = Organization;
+            _number = Number;
+            _last = Last;
+            _listPublication = ListPublication;
         }
         public ResearchTeam()
         {
             _theme = "Dream come to life";
             _organization = "Joye Drew Studios";
             _number = 01;
-            _Last = TimeFrame.Давно;
+            _last = TimeFrame.Давно;
             _listPublication = new [] {new Paper()};
            
         }
@@ -70,14 +70,14 @@ namespace ConsoleApplication1
         {
             string Papers = "";
             //foreach (var item in _listPublication)
-               // Papers += $"{item._Publication} {item._person}"; //oshibka
-          // Papers += $"{item.ToFullString()} \n";
-            Papers += $"Тема: {_theme},\nНазвание: {_organization}, \nРег. номер: {_number}, \nПродолжительность исследований: {_Last},\nСписок публикаций: ";
+            //    Papers += $"{item._publication} {item._person}"; //oshibka
+            //Papers += $"{item.ToFullString()} \n";
+            Papers += $"Тема: {_theme},\nНазвание: {_organization}, \nРег. номер: {_number}, \nПродолжительность исследований: {_last},\nСписок публикаций: ";
             return Papers;
         }
         public string ToShortString()
         {
-            return $"Тема: {_theme}, \nОрганизация: {_organization}, \nРег. номер: {_number}, \nПродолжительность исследований: {_Last} ";
+            return $"Тема: {_theme}, \nОрганизация: {_organization}, \nРег. номер: {_number}, \nПродолжительность исследований: {_last} ";
 
         }
 
