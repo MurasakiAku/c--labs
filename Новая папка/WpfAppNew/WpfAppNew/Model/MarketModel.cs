@@ -9,7 +9,7 @@ namespace WpfAppNew.Model
     {
         static MarketModel()
         {
-            
+            Database.SetInitializer<MarketModel>(new Ini()); 
         }
         
         public MarketModel()
