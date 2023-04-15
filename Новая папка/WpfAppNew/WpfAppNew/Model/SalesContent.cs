@@ -13,11 +13,18 @@ namespace WpfAppNew.Model
         public double Quantity { get; set; }
         public int Discount { get; set; }
 
-        public virtual ICollection<Product> Products { get; set; }
+        public virtual  ICollection<Product> Products { get; set; }
+        public virtual ICollection<Cash> Cashes { get; set; }
+        public int CashId { get; set; }
+
+
         public SalesContent()
         {
             Products = new List<Product>();
+            Cashes = new List<Cash>();
         }
+        
+       // public virtual Cash Cash { get; set; }
 
     }
 }

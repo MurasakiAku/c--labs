@@ -10,7 +10,7 @@ namespace WpfAppNew.Model
     {
         public int Id { get; set; }
         public DateTime DateTime { get; set; }
-
+        public virtual ICollection<Product> Products { get; set; }
 
 
     }

@@ -11,6 +11,7 @@ namespace WpfAppNew.Model
         public int Id { get; set; }
         public int CashNumber { get; set; }
 
-       // public virtual ICollection<>
+       public virtual ICollection<SalesContent> SalesContents { get; set; }
+          
     }
 }
