@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace WpfAppNew.Model
 {
-     public class Seller
+    public class Seller
     {
+       
         public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }

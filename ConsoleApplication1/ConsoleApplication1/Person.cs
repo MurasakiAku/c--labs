@@ -24,7 +24,7 @@ namespace ConsoleApplication1
             _lastname = "Drew";
             _bdate = new DateTime(1930, 01, 01);
         }
-        
+        //todo: доделать свойство
         //public int year
         //{
         //    get { return BDate.Year; }

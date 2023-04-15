@@ -13,6 +13,7 @@ namespace WpfAppNew.Model
         {
             Seller seller1 = new Seller()
             {
+                //Старший кассир
                 Id = 1,
                 FirstName = "Иван",
                 LastName = "Иванович",
@@ -20,6 +21,7 @@ namespace WpfAppNew.Model
             };
             Seller seller2 = new Seller()
             {
+                //Ученик
                 Id = 2,
                 FirstName = "Карнаков",
                 LastName = "Матвей",
@@ -41,21 +43,20 @@ namespace WpfAppNew.Model
                 SellerCategories = "Старший кассир"
             };
 
-            Cash cash1 = new Cash()
-            {
-                Id = 1,
-                CashNumber = 1
-            };
-            Cash cash2 = new Cash()
-            {
-                Id = 2,
-                CashNumber = 2
-            };
-            Sale sale1 = new Sale()
-            {
-                Id = 1,
-               // DateTime = ""
-            };
+            //Cash cash1 = new Cash()
+            //{
+            //    Id = 1,
+            //    CashNumber = 1
+            //};
+            //Cash cash2 = new Cash()
+            //{
+            //    Id = 2,
+            //    CashNumber = 2
+            //};
+
+            category1.Sellers.Add(seller2);
+            category3.Sellers.Add(seller1);
+            
 
         }
     }
