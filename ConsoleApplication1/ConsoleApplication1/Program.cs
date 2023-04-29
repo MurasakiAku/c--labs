@@ -14,6 +14,10 @@ namespace ConsoleApplication1
     }
     class Program
     {
+        
+
+
+
         static void Main(string[] args)
         {
             ResearchTeam research = new ResearchTeam();
@@ -32,6 +36,20 @@ namespace ConsoleApplication1
             //  research.AddPapers(new Paper());
             //  // Console.WriteLine(research.PaperLast.Title);
             Console.ReadKey();
+
+
+            
+                
+
+
+
+
+
+
+
+
+
+
         }
     }
 }

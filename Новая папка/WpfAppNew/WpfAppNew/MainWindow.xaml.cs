@@ -33,5 +33,11 @@ namespace WpfAppNew
             
 
         }
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            MenuItem menuItem = (MenuItem)sender;
+
+        }
     }
 }
