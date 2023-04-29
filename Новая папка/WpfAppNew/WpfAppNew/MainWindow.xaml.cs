@@ -24,19 +24,38 @@ namespace WpfAppNew
         public MainWindow()
         {
             InitializeComponent();
+            
+
+
+
+
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             MarketModel model = new MarketModel();
             //model.
-            
+
 
         }
+        
+
 
         private void MenuItem_Click(object sender, RoutedEventArgs e)
         {
+            
             MenuItem menuItem = (MenuItem)sender;
+
+
+        }
+
+        private void MenuItem_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void MenuItem_Click_2(object sender, RoutedEventArgs e)
+        {
 
         }
     }

@@ -34,7 +34,7 @@
         <TextBox HorizontalAlignment="Left" Height="23" Margin="165,61,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Button Content="Button" HorizontalAlignment="Left" Margin="83,378,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
         <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="165,304,0,0" VerticalAlignment="Top"/>
-        <Menu Grid.Column="1" HorizontalAlignment="Left" Height="301" Margin="190,25,0,0" VerticalAlignment="Top" Width="240" RenderTransformOrigin="0.5,0.5">
+        <Menu Grid.Column="1" HorizontalAlignment="Left" Height="385" Margin="130,25,0,0" VerticalAlignment="Top" Width="300" RenderTransformOrigin="0.5,0.5">
             <Menu.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -43,8 +43,17 @@
                     <TranslateTransform/>
                 </TransformGroup>
             </Menu.RenderTransform>
-            <MenuItem Header="MenuItem" Height="53" Width="240" Click="MenuItem_Click"/>
+            <MenuItem Header="MenuItem" Height="40" Width="79" Click="MenuItem_Click"/>
+            <MenuItem Header = "Open" Click="MenuItem_Click_1"/>
+            <MenuItem Header=" Save" Click="MenuItem_Click_2"/>
+            
         </Menu>
+        
+        <Button Content="Продукты" Grid.Column="1" HorizontalAlignment="Left" Margin="345,160,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Button" Grid.Column="1" HorizontalAlignment="Left" Margin="155,169,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Button" Grid.Column="1" HorizontalAlignment="Left" Margin="155,215,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Продавец" Grid.Column="1" HorizontalAlignment="Left" Margin="345,117,0,0" VerticalAlignment="Top" Width="75"/>
+
 
     </Grid>
 </Window>
